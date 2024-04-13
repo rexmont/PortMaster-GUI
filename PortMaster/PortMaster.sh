@@ -11,6 +11,8 @@ elif [ -d "/opt/tools/PortMaster/" ]; then
   controlfolder="/opt/tools/PortMaster"
 elif [ -d "$XDG_DATA_HOME/PortMaster/" ]; then
   controlfolder="$XDG_DATA_HOME/PortMaster"
+elif [ -d "/userdata/roms/ports/PortMaster" ]; then
+  controlfolder="/userdata/roms/ports/PortMaster"
 else
   controlfolder="/roms/ports/PortMaster"
 fi
